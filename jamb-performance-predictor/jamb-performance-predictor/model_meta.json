@@ -1,0 +1,132 @@
+{
+  "trained_at": "2026-10-08 19:18 UTC",
+  "pass_mark": 200,
+  "rows": 5000,
+  "train_rows": 4000,
+  "test_rows": 1000,
+  "pass_rate": 0.2906,
+  "metrics": {
+    "accuracy": 0.795,
+    "precision": 0.7055837563451777,
+    "recall": 0.486013986013986,
+    "f1": 0.5755693581780539,
+    "roc_auc": 0.8269867387514446,
+    "confusion_matrix": [
+      [
+        656,
+        58
+      ],
+      [
+        147,
+        139
+      ]
+    ]
+  },
+  "categorical": {
+    "School_Type": {
+      "options": [
+        "Private",
+        "Public"
+      ],
+      "mode": "Public"
+    },
+    "School_Location": {
+      "options": [
+        "Rural",
+        "Urban"
+      ],
+      "mode": "Urban"
+    },
+    "Extra_Tutorials": {
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "mode": "Yes"
+    },
+    "Access_To_Learning_Materials": {
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "mode": "Yes"
+    },
+    "Parent_Involvement": {
+      "options": [
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "mode": "Medium"
+    },
+    "IT_Knowledge": {
+      "options": [
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "mode": "Medium"
+    },
+    "Gender": {
+      "options": [
+        "Female",
+        "Male"
+      ],
+      "mode": "Female"
+    },
+    "Socioeconomic_Status": {
+      "options": [
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "mode": "Medium"
+    },
+    "Parent_Education_Level": {
+      "options": [
+        "Primary",
+        "Secondary",
+        "Tertiary"
+      ],
+      "mode": "Secondary"
+    }
+  },
+  "numeric": {
+    "Study_Hours_Per_Week": {
+      "min": 0.0,
+      "max": 40.0,
+      "median": 19.0,
+      "is_int": true
+    },
+    "Attendance_Rate": {
+      "min": 50.0,
+      "max": 100.0,
+      "median": 84.0,
+      "is_int": true
+    },
+    "Teacher_Quality": {
+      "min": 1.0,
+      "max": 5.0,
+      "median": 2.0,
+      "is_int": true
+    },
+    "Distance_To_School": {
+      "min": 0.0,
+      "max": 20.0,
+      "median": 10.0,
+      "is_int": false
+    },
+    "Age": {
+      "min": 15.0,
+      "max": 22.0,
+      "median": 18.0,
+      "is_int": true
+    },
+    "Assignments_Completed": {
+      "min": 1.0,
+      "max": 5.0,
+      "median": 1.0,
+      "is_int": true
+    }
+  }
+}
